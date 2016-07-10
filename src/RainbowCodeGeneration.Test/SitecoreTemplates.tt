@@ -1,4 +1,4 @@
-﻿<#@ template debug="" hostspecific="true" language="C#" #>
+﻿<#@ template debug="false" hostspecific="true" language="C#" #>
 <#@ output extension=".cs" #>
 <#@ assembly name="System.Core" #>
 <# // NOTE - Reference your NuGet packages for Rainbow and RainbowCodeGeneration here #>

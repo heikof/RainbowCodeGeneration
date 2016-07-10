@@ -1,6 +1,13 @@
-﻿<#@ template debug="" hostspecific="true" language="C#" #>
+﻿<#@ template debug="false" hostspecific="true" language="C#" #>
 <#@ output extension=".cs" #>
 <#@ assembly name="System.Core" #>
+<# // NOTE - Reference your NuGet packages for Rainbow and RainbowCodeGeneration here #>
+<#@ assembly name="$(SolutionDir)packages\Rainbow.Core.1.3.1\lib\net45\Rainbow.dll" #>
+<#@ assembly name="$(SolutionDir)packages\Rainbow.Storage.Yaml.1.3.1\lib\net45\Rainbow.Storage.Yaml.dll" #>
+<#@ assembly name="$(SolutionDir)packages\RainbowCodeGeneration.0.1.0\lib\net452\RainbowCodeGeneration.dll" #>
+<# // NOTE - Reference your Sitecore.Kernel.dll here #>
+<#@ assembly name="$(SolutionDir)lib\Sitecore\Sitecore.Kernel.dll" #>
+
 <# // NOTE - Reference your NuGet packages for Rainbow and RainbowCodeGeneration here #>
 <#@ assembly name="$(SolutionDir)packages\Rainbow.Core.1.3.1\lib\net45\Rainbow.dll" #>
 <#@ assembly name="$(SolutionDir)packages\RainbowCodeGeneration.0.1.0\lib\net45\RainbowCodeGeneration.dll" #>
