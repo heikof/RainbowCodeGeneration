@@ -16,6 +16,10 @@ namespace RainbowCodeGeneration
 
         public static IEnumerable<Template> GetTemplates(string physicalRootPath, string treeName, string treePath)
         {
+            if (!System.IO.Directory.Exists(physicalRootPath))
+                throw new InvalidOperationException($"Could not find the root path {physicalRootPath}");
+            if (!System.IO.Directory.Exists($"{physicalRootPath}\\{treeName}"))
+                throw new InvalidOperationException($"Could not find the tree with path {physicalRootPath}\\{treeName}");
             var ds = new SerializationFileSystemDataStore(physicalRootPath, false,
                     new TreeRootFactory(treeName, treePath, MasterDb),
                     new YamlSerializationFormatter(null, null));
