@@ -16,1184 +16,216 @@ namespace RainbowCodeGeneration.Test
     {
 	
 		/// <summary>
-		/// Accordion Folder
+		/// Map Type
 		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Accordion/Accordion Folder</para>	
-		/// <para>ID: d308e05f-dfe3-490a-8687-f416303c4a06</para>	
+		/// <para>Path: /sitecore/templates/Feature/Maps/Map Type</para>	
+		/// <para>ID: 04c34cf5-b7ea-4408-88e8-5fc851173dbd</para>	
 		/// </summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Accordion_Folder
+		public struct Map_Type
         {
 			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Accordion/Accordion Folder
+			/// The ID for /sitecore/templates/Feature/Maps/Map Type
 			/// </summary>
 			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{d308e05f-dfe3-490a-8687-f416303c4a06}");
+            public static ID Id = new ID("{04c34cf5-b7ea-4408-88e8-5fc851173dbd}");
 			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Accordion/Accordion Folder
+			/// The TemplateId string for /sitecore/templates/Feature/Maps/Map Type
 			/// </summary>
 			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "d308e05f-dfe3-490a-8687-f416303c4a06";
-		}
+			public const string TemplateId = "04c34cf5-b7ea-4408-88e8-5fc851173dbd";
 
-		/// <summary>
-		/// Accordion Item
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Accordion/Accordion Item</para>	
-		/// <para>ID: 0ca88c8e-e38f-4496-9cec-1c7ed01897ef</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Accordion_Item
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Accordion/Accordion Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{0ca88c8e-e38f-4496-9cec-1c7ed01897ef}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Accordion/Accordion Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "0ca88c8e-e38f-4496-9cec-1c7ed01897ef";
-		}
-
-		/// <summary>
-		/// Accordion Set
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Accordion/Accordion Set</para>	
-		/// <para>ID: d7a87f5c-2168-4209-817f-d626c3ad78c6</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Accordion_Set
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Accordion/Accordion Set
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{d7a87f5c-2168-4209-817f-d626c3ad78c6}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Accordion/Accordion Set
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "d7a87f5c-2168-4209-817f-d626c3ad78c6";
-
-			public struct AccordionItems
+			public struct Name
             {
 				/// <summary>
-				/// The AccordionItems field.
+				/// The Name field.
 				/// <para></para>
-				/// <para>Field Type: Treelist</para>		
+				/// <para>Field Type: Single-Line Text</para>		
 				/// </summary>
-                public const string FieldName = "AccordionItems";
+                public const string FieldName = "Name";
             }
 		}
 
 		/// <summary>
-		/// Contact Bar Folder
+		/// _MapPoint
 		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Contact Bar/Contact Bar Folder</para>	
-		/// <para>ID: b7af64e7-82e9-4a29-82cf-ea4e44434f19</para>	
+		/// <para>Path: /sitecore/templates/Feature/Maps/_MapPoint</para>	
+		/// <para>ID: 1e6a8c8c-6646-4776-8ab4-615265669633</para>	
 		/// </summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Contact_Bar_Folder
+		public struct _MapPoint
         {
 			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Contact Bar/Contact Bar Folder
+			/// The ID for /sitecore/templates/Feature/Maps/_MapPoint
 			/// </summary>
 			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{b7af64e7-82e9-4a29-82cf-ea4e44434f19}");
+            public static ID Id = new ID("{1e6a8c8c-6646-4776-8ab4-615265669633}");
 			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Contact Bar/Contact Bar Folder
+			/// The TemplateId string for /sitecore/templates/Feature/Maps/_MapPoint
 			/// </summary>
 			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "b7af64e7-82e9-4a29-82cf-ea4e44434f19";
-		}
+			public const string TemplateId = "1e6a8c8c-6646-4776-8ab4-615265669633";
 
-		/// <summary>
-		/// Contact Bar Item
-		/// <para>Heiko rulez</para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Contact Bar/Contact Bar Item</para>	
-		/// <para>ID: 3b95e19c-9274-4d28-ae8d-e12f216182ac</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Contact_Bar_Item
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Contact Bar/Contact Bar Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{3b95e19c-9274-4d28-ae8d-e12f216182ac}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Contact Bar/Contact Bar Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "3b95e19c-9274-4d28-ae8d-e12f216182ac";
-
-			public struct EmailIcon
+			public struct MapPointAddress
             {
 				/// <summary>
-				/// The EmailIcon field.
-				/// <para></para>
-				/// <para>Field Type: Image</para>		
-				/// </summary>
-                public const string FieldName = "EmailIcon";
-            }
-
-			public struct EmailLink
-            {
-				/// <summary>
-				/// The EmailLink field.
-				/// <para></para>
-				/// <para>Field Type: General Link</para>		
-				/// </summary>
-                public const string FieldName = "EmailLink";
-            }
-
-			public struct LocationIcon
-            {
-				/// <summary>
-				/// The LocationIcon field.
-				/// <para></para>
-				/// <para>Field Type: Image</para>		
-				/// </summary>
-                public const string FieldName = "LocationIcon";
-            }
-
-			public struct LocationLink
-            {
-				/// <summary>
-				/// The LocationLink field.
-				/// <para></para>
-				/// <para>Field Type: General Link</para>		
-				/// </summary>
-                public const string FieldName = "LocationLink";
-            }
-
-			public struct PhoneIcon
-            {
-				/// <summary>
-				/// The PhoneIcon field.
-				/// <para></para>
-				/// <para>Field Type: Image</para>		
-				/// </summary>
-                public const string FieldName = "PhoneIcon";
-            }
-
-			public struct PhoneLink
-            {
-				/// <summary>
-				/// The PhoneLink field.
-				/// <para></para>
-				/// <para>Field Type: General Link</para>		
-				/// </summary>
-                public const string FieldName = "PhoneLink";
-            }
-		}
-
-		/// <summary>
-		/// Contact Bar Rendering Options
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Contact Bar/Contact Bar Rendering Options</para>	
-		/// <para>ID: 90b4f55b-0361-4b5a-bab5-5b177e97a659</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Contact_Bar_Rendering_Options
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Contact Bar/Contact Bar Rendering Options
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{90b4f55b-0361-4b5a-bab5-5b177e97a659}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Contact Bar/Contact Bar Rendering Options
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "90b4f55b-0361-4b5a-bab5-5b177e97a659";
-		}
-
-		/// <summary>
-		/// Content Tile Folder
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Content Tile/Content Tile Folder</para>	
-		/// <para>ID: 3924e9bc-fed4-4f6a-9889-73779b2be29c</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Content_Tile_Folder
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Content Tile/Content Tile Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{3924e9bc-fed4-4f6a-9889-73779b2be29c}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Content Tile/Content Tile Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "3924e9bc-fed4-4f6a-9889-73779b2be29c";
-		}
-
-		/// <summary>
-		/// Content Tile
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Content Tile/Content Tile</para>	
-		/// <para>ID: 7c69e05f-19cf-48d2-8382-c9a10255a825</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Content_Tile
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Content Tile/Content Tile
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{7c69e05f-19cf-48d2-8382-c9a10255a825}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Content Tile/Content Tile
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "7c69e05f-19cf-48d2-8382-c9a10255a825";
-
-			public struct Description
-            {
-				/// <summary>
-				/// The Description field.
+				/// The MapPointAddress field.
 				/// <para></para>
 				/// <para>Field Type: Multi-Line Text</para>		
 				/// </summary>
-                public const string FieldName = "Description";
+                public const string FieldName = "MapPointAddress";
             }
-		}
 
-		/// <summary>
-		/// Download Links Folder
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Download Links/Download Links Folder</para>	
-		/// <para>ID: eddec721-0744-46f3-bae7-b258138b666f</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Download_Links_Folder
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Download Links/Download Links Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{eddec721-0744-46f3-bae7-b258138b666f}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Download Links/Download Links Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "eddec721-0744-46f3-bae7-b258138b666f";
-		}
-
-		/// <summary>
-		/// Download Links Item
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Download Links/Download Links Item</para>	
-		/// <para>ID: d2632f2a-a347-466c-a2fe-96aa71d0e4eb</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Download_Links_Item
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Download Links/Download Links Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{d2632f2a-a347-466c-a2fe-96aa71d0e4eb}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Download Links/Download Links Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "d2632f2a-a347-466c-a2fe-96aa71d0e4eb";
-
-			public struct Downloads
+			public struct MapPointLocation
             {
 				/// <summary>
-				/// The Downloads field.
+				/// The MapPointLocation field.
 				/// <para></para>
-				/// <para>Field Type: Treelist</para>		
+				/// <para>Field Type: Map Field</para>		
 				/// </summary>
-                public const string FieldName = "Downloads";
+                public const string FieldName = "MapPointLocation";
             }
-		}
 
-		/// <summary>
-		/// Layout Split Rendering Options
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Dynamic/Layout Split Rendering Options</para>	
-		/// <para>ID: 104cfb76-df5d-439b-bbb2-835ce6055648</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Layout_Split_Rendering_Options
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Dynamic/Layout Split Rendering Options
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{104cfb76-df5d-439b-bbb2-835ce6055648}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Dynamic/Layout Split Rendering Options
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "104cfb76-df5d-439b-bbb2-835ce6055648";
-		}
-
-		/// <summary>
-		/// Footer Link Folder
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Footer/Footer Link Folder</para>	
-		/// <para>ID: a2d6999f-3696-4a38-9619-3a17b23e80ca</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Footer_Link_Folder
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Footer/Footer Link Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{a2d6999f-3696-4a38-9619-3a17b23e80ca}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Footer/Footer Link Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "a2d6999f-3696-4a38-9619-3a17b23e80ca";
-		}
-
-		/// <summary>
-		/// Footer Link Item
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Footer/Footer Link Item</para>	
-		/// <para>ID: 0e12e814-46f2-4e78-91a2-3782eb320c31</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Footer_Link_Item
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Footer/Footer Link Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{0e12e814-46f2-4e78-91a2-3782eb320c31}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Footer/Footer Link Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "0e12e814-46f2-4e78-91a2-3782eb320c31";
-		}
-
-		/// <summary>
-		/// Footer Site Setting Field Section
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Footer/Footer Site Setting Field Section</para>	
-		/// <para>ID: 7d55dda4-3c63-4753-979c-2071bc9630ce</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Footer_Site_Setting_Field_Section
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Footer/Footer Site Setting Field Section
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{7d55dda4-3c63-4753-979c-2071bc9630ce}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Footer/Footer Site Setting Field Section
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "7d55dda4-3c63-4753-979c-2071bc9630ce";
-
-			public struct Copyright
+			public struct MapPointName
             {
 				/// <summary>
-				/// The Copyright field.
+				/// The MapPointName field.
 				/// <para></para>
 				/// <para>Field Type: Single-Line Text</para>		
 				/// </summary>
-                public const string FieldName = "Copyright";
-            }
-
-			public struct FooterLinks
-            {
-				/// <summary>
-				/// The FooterLinks field.
-				/// <para></para>
-				/// <para>Field Type: Droptree</para>		
-				/// </summary>
-                public const string FieldName = "FooterLinks";
-            }
-
-			public struct SocialMediaLinks
-            {
-				/// <summary>
-				/// The SocialMediaLinks field.
-				/// <para></para>
-				/// <para>Field Type: Droptree</para>		
-				/// </summary>
-                public const string FieldName = "SocialMediaLinks";
+                public const string FieldName = "MapPointName";
             }
 		}
 
 		/// <summary>
-		/// Social Media Link
+		/// _MapPoints Folder
 		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Footer/Social Media Link</para>	
-		/// <para>ID: 3600300a-fd37-496d-b852-1129193e52ad</para>	
+		/// <para>Path: /sitecore/templates/Feature/Maps/_MapPoints Folder</para>	
+		/// <para>ID: 31713995-c6bf-4ccb-8807-198493508afa</para>	
 		/// </summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Social_Media_Link
+		public struct _MapPoints_Folder
         {
 			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Footer/Social Media Link
+			/// The ID for /sitecore/templates/Feature/Maps/_MapPoints Folder
 			/// </summary>
 			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{3600300a-fd37-496d-b852-1129193e52ad}");
+            public static ID Id = new ID("{31713995-c6bf-4ccb-8807-198493508afa}");
 			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Footer/Social Media Link
+			/// The TemplateId string for /sitecore/templates/Feature/Maps/_MapPoints Folder
 			/// </summary>
 			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "3600300a-fd37-496d-b852-1129193e52ad";
-
-			public struct IconCssClass
-            {
-				/// <summary>
-				/// The IconCssClass field.
-				/// <para></para>
-				/// <para>Field Type: Single-Line Text</para>		
-				/// </summary>
-                public const string FieldName = "IconCssClass";
-            }
+			public const string TemplateId = "31713995-c6bf-4ccb-8807-198493508afa";
 		}
 
 		/// <summary>
-		/// Header Site Setting Field Section
+		/// _MapRenderingParameters
 		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Header/Header Site Setting Field Section</para>	
-		/// <para>ID: 4f71be78-6473-4a4b-8f17-3d2ad30c8b81</para>	
+		/// <para>Path: /sitecore/templates/Feature/Maps/_MapRenderingParameters</para>	
+		/// <para>ID: d77856c3-8a5e-452c-8854-f2965edf25e0</para>	
 		/// </summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Header_Site_Setting_Field_Section
+		public struct _MapRenderingParameters
         {
 			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Header/Header Site Setting Field Section
+			/// The ID for /sitecore/templates/Feature/Maps/_MapRenderingParameters
 			/// </summary>
 			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{4f71be78-6473-4a4b-8f17-3d2ad30c8b81}");
+            public static ID Id = new ID("{d77856c3-8a5e-452c-8854-f2965edf25e0}");
 			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Header/Header Site Setting Field Section
+			/// The TemplateId string for /sitecore/templates/Feature/Maps/_MapRenderingParameters
 			/// </summary>
 			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "4f71be78-6473-4a4b-8f17-3d2ad30c8b81";
+			public const string TemplateId = "d77856c3-8a5e-452c-8854-f2965edf25e0";
 
-			public struct GlobalPageTitle
+			public struct CenterLocation
             {
 				/// <summary>
-				/// The GlobalPageTitle field.
+				/// The CenterLocation field.
 				/// <para></para>
 				/// <para>Field Type: Single-Line Text</para>		
 				/// </summary>
-                public const string FieldName = "GlobalPageTitle";
+                public const string FieldName = "CenterLocation";
             }
 
-			public struct LogoImage
+			public struct EnableCenterMapControl
             {
 				/// <summary>
-				/// The LogoImage field.
+				/// The EnableCenterMapControl field.
 				/// <para></para>
-				/// <para>Field Type: Image</para>		
+				/// <para>Field Type: Checkbox</para>		
 				/// </summary>
-                public const string FieldName = "LogoImage";
+                public const string FieldName = "EnableCenterMapControl";
             }
 
-			public struct SearchResultsPage
+			public struct EnableMapTypeControl
             {
 				/// <summary>
-				/// The SearchResultsPage field.
+				/// The EnableMapTypeControl field.
 				/// <para></para>
-				/// <para>Field Type: General Link</para>		
+				/// <para>Field Type: Checkbox</para>		
 				/// </summary>
-                public const string FieldName = "SearchResultsPage";
+                public const string FieldName = "EnableMapTypeControl";
             }
-		}
 
-		/// <summary>
-		/// Hero Banner Folder
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Banner/Hero Banner Folder</para>	
-		/// <para>ID: ccdfc49a-4c15-4325-971c-076f21001728</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Hero_Banner_Folder
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Banner/Hero Banner Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{ccdfc49a-4c15-4325-971c-076f21001728}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Banner/Hero Banner Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "ccdfc49a-4c15-4325-971c-076f21001728";
-		}
-
-		/// <summary>
-		/// Hero Banner Item
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Banner/Hero Banner Item</para>	
-		/// <para>ID: 1884a27a-c22d-4bf2-8596-fc56e0512acb</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Hero_Banner_Item
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Banner/Hero Banner Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{1884a27a-c22d-4bf2-8596-fc56e0512acb}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Banner/Hero Banner Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "1884a27a-c22d-4bf2-8596-fc56e0512acb";
-		}
-
-		/// <summary>
-		/// Hero Banner Rendering Options
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Banner/Hero Banner Rendering Options</para>	
-		/// <para>ID: e5c89eb3-60db-4c98-affc-82cb073e75d6</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Hero_Banner_Rendering_Options
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Banner/Hero Banner Rendering Options
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{e5c89eb3-60db-4c98-affc-82cb073e75d6}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Banner/Hero Banner Rendering Options
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "e5c89eb3-60db-4c98-affc-82cb073e75d6";
-		}
-
-		/// <summary>
-		/// Hero Carousel Folder
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Carousel/Hero Carousel Folder</para>	
-		/// <para>ID: 11e88564-66de-4a52-a175-38f7fd974236</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Hero_Carousel_Folder
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Carousel/Hero Carousel Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{11e88564-66de-4a52-a175-38f7fd974236}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Carousel/Hero Carousel Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "11e88564-66de-4a52-a175-38f7fd974236";
-		}
-
-		/// <summary>
-		/// Hero Carousel Item
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Carousel/Hero Carousel Item</para>	
-		/// <para>ID: fe21e247-308e-46f4-88f6-2cffe783ac54</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Hero_Carousel_Item
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Carousel/Hero Carousel Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{fe21e247-308e-46f4-88f6-2cffe783ac54}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Carousel/Hero Carousel Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "fe21e247-308e-46f4-88f6-2cffe783ac54";
-
-			public struct CarouselItems
+			public struct EnableRotateControl
             {
 				/// <summary>
-				/// The CarouselItems field.
+				/// The EnableRotateControl field.
 				/// <para></para>
-				/// <para>Field Type: Treelist</para>		
+				/// <para>Field Type: Checkbox</para>		
 				/// </summary>
-                public const string FieldName = "CarouselItems";
+                public const string FieldName = "EnableRotateControl";
             }
-		}
 
-		/// <summary>
-		/// Hero Carousel Slide Item
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Carousel/Hero Carousel Slide Item</para>	
-		/// <para>ID: 4712801f-1d3f-4384-86b2-89bb8410a2cb</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Hero_Carousel_Slide_Item
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Carousel/Hero Carousel Slide Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{4712801f-1d3f-4384-86b2-89bb8410a2cb}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Carousel/Hero Carousel Slide Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "4712801f-1d3f-4384-86b2-89bb8410a2cb";
-		}
-
-		/// <summary>
-		/// Hero Carousel Video Item
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Carousel/Hero Carousel Video Item</para>	
-		/// <para>ID: 336689db-56f1-40b5-9174-aa1d2a9abcb9</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Hero_Carousel_Video_Item
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Carousel/Hero Carousel Video Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{336689db-56f1-40b5-9174-aa1d2a9abcb9}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Carousel/Hero Carousel Video Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "336689db-56f1-40b5-9174-aa1d2a9abcb9";
-
-			public struct VideoMp4
+			public struct EnableScaleControl
             {
 				/// <summary>
-				/// The VideoMp4 field.
+				/// The EnableScaleControl field.
 				/// <para></para>
-				/// <para>Field Type: General Link</para>		
+				/// <para>Field Type: Checkbox</para>		
 				/// </summary>
-                public const string FieldName = "VideoMp4";
+                public const string FieldName = "EnableScaleControl";
             }
 
-			public struct VideoWebm
+			public struct EnableStreetViewControl
             {
 				/// <summary>
-				/// The VideoWebm field.
+				/// The EnableStreetViewControl field.
 				/// <para></para>
-				/// <para>Field Type: General Link</para>		
+				/// <para>Field Type: Checkbox</para>		
 				/// </summary>
-                public const string FieldName = "VideoWebm";
+                public const string FieldName = "EnableStreetViewControl";
             }
-		}
 
-		/// <summary>
-		/// Hero Links Folder
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Links/Hero Links Folder</para>	
-		/// <para>ID: 1006d287-47b9-4257-977c-e9e6c79658a8</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Hero_Links_Folder
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Links/Hero Links Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{1006d287-47b9-4257-977c-e9e6c79658a8}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Links/Hero Links Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "1006d287-47b9-4257-977c-e9e6c79658a8";
-		}
-
-		/// <summary>
-		/// Hero Links Item
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Links/Hero Links Item</para>	
-		/// <para>ID: f96a6cd1-d5b2-413c-a236-0c51d93b2da9</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Hero_Links_Item
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Links/Hero Links Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{f96a6cd1-d5b2-413c-a236-0c51d93b2da9}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Links/Hero Links Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "f96a6cd1-d5b2-413c-a236-0c51d93b2da9";
-
-			public struct HeroLinksItems
+			public struct EnableZoomControl
             {
 				/// <summary>
-				/// The HeroLinksItems field.
+				/// The EnableZoomControl field.
 				/// <para></para>
-				/// <para>Field Type: Treelist</para>		
+				/// <para>Field Type: Checkbox</para>		
 				/// </summary>
-                public const string FieldName = "HeroLinksItems";
+                public const string FieldName = "EnableZoomControl";
             }
 
-			public struct TaxonomyParent
+			public struct MapType
             {
 				/// <summary>
-				/// The TaxonomyParent field.
+				/// The MapType field.
 				/// <para></para>
-				/// <para>Field Type: Droptree</para>		
+				/// <para>Field Type: Droplist</para>		
 				/// </summary>
-                public const string FieldName = "TaxonomyParent";
+                public const string FieldName = "MapType";
             }
-		}
 
-		/// <summary>
-		/// Image Folder
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Image/Image Folder</para>	
-		/// <para>ID: 6cf1e893-aab3-42c5-bf4f-bdeaf641991f</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Image_Folder
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Image/Image Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{6cf1e893-aab3-42c5-bf4f-bdeaf641991f}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Image/Image Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "6cf1e893-aab3-42c5-bf4f-bdeaf641991f";
-		}
-
-		/// <summary>
-		/// Image Item
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Image/Image Item</para>	
-		/// <para>ID: a433ed38-7d03-4d29-bc2b-1471bbb1d2c4</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Image_Item
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Image/Image Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{a433ed38-7d03-4d29-bc2b-1471bbb1d2c4}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Image/Image Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "a433ed38-7d03-4d29-bc2b-1471bbb1d2c4";
-
-			public struct ImageCaption
+			public struct ZoomLevel
             {
 				/// <summary>
-				/// The ImageCaption field.
+				/// The ZoomLevel field.
 				/// <para></para>
 				/// <para>Field Type: Single-Line Text</para>		
 				/// </summary>
-                public const string FieldName = "ImageCaption";
-            }
-		}
-
-		/// <summary>
-		/// Map API Key Site Setting Field Section
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Map Module/Map API Key Site Setting Field Section</para>	
-		/// <para>ID: afcdc15b-f826-43b4-bdf7-c2b3b0212c53</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Map_API_Key_Site_Setting_Field_Section
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Map Module/Map API Key Site Setting Field Section
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{afcdc15b-f826-43b4-bdf7-c2b3b0212c53}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Map Module/Map API Key Site Setting Field Section
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "afcdc15b-f826-43b4-bdf7-c2b3b0212c53";
-
-			public struct MapAPIKey
-            {
-				/// <summary>
-				/// The MapAPIKey field.
-				/// <para></para>
-				/// <para>Field Type: Single-Line Text</para>		
-				/// </summary>
-                public const string FieldName = "MapAPIKey";
-            }
-		}
-
-		/// <summary>
-		/// Map Module Folder
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Map Module/Map Module Folder</para>	
-		/// <para>ID: 9c05eda2-d626-479a-aa45-31b1221a6506</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Map_Module_Folder
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Map Module/Map Module Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{9c05eda2-d626-479a-aa45-31b1221a6506}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Map Module/Map Module Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "9c05eda2-d626-479a-aa45-31b1221a6506";
-		}
-
-		/// <summary>
-		/// Map Module Item
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Map Module/Map Module Item</para>	
-		/// <para>ID: ba9ce09a-baad-4e0b-b418-cc2c30d13dfe</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Map_Module_Item
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Map Module/Map Module Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{ba9ce09a-baad-4e0b-b418-cc2c30d13dfe}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Map Module/Map Module Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "ba9ce09a-baad-4e0b-b418-cc2c30d13dfe";
-
-			public struct Latitude
-            {
-				/// <summary>
-				/// The Latitude field.
-				/// <para></para>
-				/// <para>Field Type: Single-Line Text</para>		
-				/// </summary>
-                public const string FieldName = "Latitude";
-            }
-
-			public struct Longitude
-            {
-				/// <summary>
-				/// The Longitude field.
-				/// <para></para>
-				/// <para>Field Type: Single-Line Text</para>		
-				/// </summary>
-                public const string FieldName = "Longitude";
-            }
-		}
-
-		/// <summary>
-		/// Map Module
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Map Module/Map Module</para>	
-		/// <para>ID: 40dd6c8e-7553-4b29-a3c0-f6401b040a4b</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Map_Module
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Map Module/Map Module
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{40dd6c8e-7553-4b29-a3c0-f6401b040a4b}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Map Module/Map Module
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "40dd6c8e-7553-4b29-a3c0-f6401b040a4b";
-
-			public struct MapModuleItems
-            {
-				/// <summary>
-				/// The MapModuleItems field.
-				/// <para></para>
-				/// <para>Field Type: Treelist</para>		
-				/// </summary>
-                public const string FieldName = "MapModuleItems";
-            }
-		}
-
-		/// <summary>
-		/// Query Feature Listing Folder
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Query Feature Listing/Query Feature Listing Folder</para>	
-		/// <para>ID: 1b92f603-880a-4692-a0d6-75c8767a5733</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Query_Feature_Listing_Folder
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Query Feature Listing/Query Feature Listing Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{1b92f603-880a-4692-a0d6-75c8767a5733}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Query Feature Listing/Query Feature Listing Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "1b92f603-880a-4692-a0d6-75c8767a5733";
-		}
-
-		/// <summary>
-		/// Query Feature Listing
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Query Feature Listing/Query Feature Listing</para>	
-		/// <para>ID: b6d20aa5-0e5f-432c-b0a5-e0283f7a7752</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Query_Feature_Listing
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Query Feature Listing/Query Feature Listing
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{b6d20aa5-0e5f-432c-b0a5-e0283f7a7752}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Query Feature Listing/Query Feature Listing
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "b6d20aa5-0e5f-432c-b0a5-e0283f7a7752";
-		}
-
-		/// <summary>
-		/// Query Related Links Folder
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Query Related Links/Query Related Links Folder</para>	
-		/// <para>ID: 32f7e979-4f89-46cb-8b0a-25090cb744f8</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Query_Related_Links_Folder
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Query Related Links/Query Related Links Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{32f7e979-4f89-46cb-8b0a-25090cb744f8}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Query Related Links/Query Related Links Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "32f7e979-4f89-46cb-8b0a-25090cb744f8";
-		}
-
-		/// <summary>
-		/// Query Related Links
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Query Related Links/Query Related Links</para>	
-		/// <para>ID: 377e9118-3b26-43d0-a311-2af08171ac29</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Query_Related_Links
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Query Related Links/Query Related Links
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{377e9118-3b26-43d0-a311-2af08171ac29}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Query Related Links/Query Related Links
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "377e9118-3b26-43d0-a311-2af08171ac29";
-
-			public struct QueryRelatedLinksViewMoreLink
-            {
-				/// <summary>
-				/// The QueryRelatedLinksViewMoreLink field.
-				/// <para></para>
-				/// <para>Field Type: General Link</para>		
-				/// </summary>
-                public const string FieldName = "QueryRelatedLinksViewMoreLink";
-            }
-		}
-
-		/// <summary>
-		/// Related Link Item
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Related Links/Related Link Item</para>	
-		/// <para>ID: 14fa946a-f92a-4b3b-be90-c9540d91d233</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Related_Link_Item
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Related Links/Related Link Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{14fa946a-f92a-4b3b-be90-c9540d91d233}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Related Links/Related Link Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "14fa946a-f92a-4b3b-be90-c9540d91d233";
-		}
-
-		/// <summary>
-		/// Related Links Folder
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Related Links/Related Links Folder</para>	
-		/// <para>ID: 35880ee6-12f4-4f84-94d7-521d21bf6ffa</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Related_Links_Folder
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Related Links/Related Links Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{35880ee6-12f4-4f84-94d7-521d21bf6ffa}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Related Links/Related Links Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "35880ee6-12f4-4f84-94d7-521d21bf6ffa";
-		}
-
-		/// <summary>
-		/// Related Links
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Related Links/Related Links</para>	
-		/// <para>ID: bc8cea21-8c8e-412a-9b3a-e85d13c59bed</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Related_Links
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Related Links/Related Links
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{bc8cea21-8c8e-412a-9b3a-e85d13c59bed}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Related Links/Related Links
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "bc8cea21-8c8e-412a-9b3a-e85d13c59bed";
-		}
-
-		/// <summary>
-		/// Rich Text Folder
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Rich Text/Rich Text Folder</para>	
-		/// <para>ID: c3b8857a-80fa-4fc4-be82-60ac134d2151</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Rich_Text_Folder
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Rich Text/Rich Text Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{c3b8857a-80fa-4fc4-be82-60ac134d2151}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Rich Text/Rich Text Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "c3b8857a-80fa-4fc4-be82-60ac134d2151";
-		}
-
-		/// <summary>
-		/// Rich Text Item
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Rich Text/Rich Text Item</para>	
-		/// <para>ID: b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Rich_Text_Item
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Rich Text/Rich Text Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Rich Text/Rich Text Item
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b";
-		}
-
-		/// <summary>
-		/// Video Folder
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Video/Video Folder</para>	
-		/// <para>ID: 7ea89fc6-c25b-4208-aac6-0bf7f026da01</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Video_Folder
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Video/Video Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{7ea89fc6-c25b-4208-aac6-0bf7f026da01}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Video/Video Folder
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "7ea89fc6-c25b-4208-aac6-0bf7f026da01";
-		}
-
-		/// <summary>
-		/// Video
-		/// <para></para>
-		/// <para>Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Video/Video</para>	
-		/// <para>ID: 1cca03f5-1ca0-4c44-af14-5e838568ecd2</para>	
-		/// </summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-		public struct Video
-        {
-			/// <summary>
-			/// The ID for /sitecore/templates/Deloitte/Features/TemplatesModules/Video/Video
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-            public static ID Id = new ID("{1cca03f5-1ca0-4c44-af14-5e838568ecd2}");
-			/// <summary>
-			/// The TemplateId string for /sitecore/templates/Deloitte/Features/TemplatesModules/Video/Video
-			/// </summary>
-			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
-			public const string TemplateId = "1cca03f5-1ca0-4c44-af14-5e838568ecd2";
-
-			public struct VideoTranscript
-            {
-				/// <summary>
-				/// The VideoTranscript field.
-				/// <para></para>
-				/// <para>Field Type: Rich Text</para>		
-				/// </summary>
-                public const string FieldName = "VideoTranscript";
-            }
-
-			public struct VideoTranscriptTitle
-            {
-				/// <summary>
-				/// The VideoTranscriptTitle field.
-				/// <para></para>
-				/// <para>Field Type: Single-Line Text</para>		
-				/// </summary>
-                public const string FieldName = "VideoTranscriptTitle";
-            }
-
-			public struct YoutubeId
-            {
-				/// <summary>
-				/// The YoutubeId field.
-				/// <para></para>
-				/// <para>Field Type: Single-Line Text</para>		
-				/// </summary>
-                public const string FieldName = "YoutubeId";
+                public const string FieldName = "ZoomLevel";
             }
 		}
 	}
