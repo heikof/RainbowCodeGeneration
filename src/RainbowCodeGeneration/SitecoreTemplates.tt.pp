@@ -33,7 +33,7 @@ var templates = RainbowCodeGeneration.RainbowReader.GetTemplates(Host.ResolvePat
 // ReSharper disable InconsistentNaming
 namespace $rootnamespace$
 {
-	using Sitecore.Data;
+	using global::Sitecore.Data;
 
 	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("<#=Tool#>", "<#=ToolVersion#>")]
     public struct SitecoreTemplates
