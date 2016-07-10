@@ -16,6 +16,8 @@ namespace RainbowCodeGeneration
 
         public static IEnumerable<Template> GetTemplates(string physicalRootPath, string treeName, string treePath)
         {
+            if (treeName == "YOUR FEATURE NAME HERE" && treePath == "/sitecore/templates/YOUR TEMPLATE PATH HERE")
+                return Enumerable.Empty<Template>(); // don't act on unconfigured T4 template (to avoid exception on installation)
             if (!System.IO.Directory.Exists(physicalRootPath))
                 throw new InvalidOperationException($"Could not find the root path {physicalRootPath}");
             if (!System.IO.Directory.Exists($"{physicalRootPath}\\{treeName}"))
