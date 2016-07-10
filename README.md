@@ -13,6 +13,8 @@ You are probably already using Unicorn with the YAML serialisation format (you r
 
 Install the [RainbowCodeGeneration package](https://www.nuget.org/packages/RainbowCodeGeneration). This installs a set of simple utility classes and an example T4 template. The template will generate an empty `SitecoreTemplates` struct in your project.
 
+![Empty Sitecore Template](http://www.heikofranz.info/wp-content/uploads/2016/07/EmptySitecoreTemplate.png)
+
 ### Configuring the T4 template 
 
 Adjust a few settings on the T4 template `SitecoreTemplates.tt` to make it run in your configuration. 
@@ -21,6 +23,8 @@ Adjust a few settings on the T4 template `SitecoreTemplates.tt` to make it run i
 * The `physicalFileStore` setting needs to point to where you store the Unicorn / Rainbow items for your project. The out of the box setting uses the relative paths that Habitat uses. 
 * The `treeName` setting is the name of the sub-tree in Unicorn. This is the name of the include on your predicate in Unicorn. The "News" feature in Habitat would use "Feature.News.Templates"
 * The `treePath` setting is the matching path in Sitecore. The "News" feature in Habitat would use "/sitecore/templates/Feature/News"
+
+![Adjust Settings](http://www.heikofranz.info/wp-content/uploads/2016/07/AdjustSettings.png)
 
 The code generation for your Sitecore templates will run when you save the T4 template. 
 
