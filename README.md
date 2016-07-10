@@ -1,5 +1,7 @@
 # RainbowCodeGeneration
 
+[![NuGet](https://img.shields.io/nuget/v/RainbowCodeGeneration.svg?maxAge=2592000)](https://www.nuget.org/packages/RainbowCodeGeneration)
+
 A simple set of utility classes and a sample T4 template that allow easy code generation for Sitecore templates from [Rainbow](https://github.com/kamsar/Rainbow) / [Unicorn](https://github.com/kamsar/Unicorn) serialized items. Currently, only the [YAML-based serialisation format](https://github.com/kamsar/Rainbow/tree/master/src/Rainbow.Storage.Yaml) is supported.
 
 ## Using the Rainbow / Unicorn code generation
