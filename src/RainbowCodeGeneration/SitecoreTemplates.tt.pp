@@ -14,8 +14,8 @@
 <# 
 // CONFIGURATION
 var physicalFileStore = @"..\serialization"; // the path to your serialisation items
-var treeName = "Feature.TemplatesModules.Templates"; // the name of the configuration you want to code-generate 
-var treePath = "/sitecore/templates/Deloitte/Features/TemplatesModules"; // the matching path in Sitecore for the configuration
+var treeName = "YOUR FEATURE NAME HERE"; // the name of the configuration you want to code-generate 
+var treePath = "/sitecore/templates/YOUR TEMPLATE PATH HERE"; // the matching path in Sitecore for the configuration
 
 var Tool = "RainbowCodeGeneration";
 var ToolVersion = "1.0";
