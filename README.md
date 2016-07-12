@@ -37,3 +37,8 @@ You can tweak the T4 template to your liking. The entire `IItemData` object from
 When your Unicorn / Rainbow items update, you will have to re-run the code generation. In Visual Studio, right-click on the T4 template and select "Run Custom Tool" to re-run the code generation. 
 
 ![Adjust Settings](http://www.heikofranz.info/wp-content/uploads/2016/07/RainbowCodeGeneration-Example.png)
+
+### Known issues in 0.1.1
+
+#### Visual Studio crashes when the underlying Unicorn items change
+The code generation can make Visual Studio crash if the Sitecore.Logging.dll is not found. To fix this issue, add a reference to Sitecore.Logging.dll in the T4 template `SitecoreTemplates.tt` (in the same way that  Sitecore.Kernel.dll is referenced). This issue will be fixed in the next release. 
