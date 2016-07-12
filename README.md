@@ -42,3 +42,6 @@ When your Unicorn / Rainbow items update, you will have to re-run the code gener
 
 #### Visual Studio crashes when the underlying Unicorn items change
 The code generation can make Visual Studio crash if the Sitecore.Logging.dll is not found. To fix this issue, add a reference to Sitecore.Logging.dll in the T4 template `SitecoreTemplates.tt` (in the same way that  Sitecore.Kernel.dll is referenced). This issue will be fixed in the next release. 
+
+#### Re-serialisation fails if Visual Studio solution is open
+Re-serialising an entire configuration fails if Visual Studio is open and a code generation is covering the configuration. Visual Studio appears to retain a lock on the folder and Unicorn cannot remove it. Close the solution and re-open it after you re-serialised the configuration. 
