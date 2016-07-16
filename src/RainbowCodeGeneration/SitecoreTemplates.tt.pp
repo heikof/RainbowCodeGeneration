@@ -4,7 +4,7 @@
 <# // NOTE - Reference your NuGet packages for Rainbow and RainbowCodeGeneration here #>
 <#@ assembly name="$(SolutionDir)packages\Rainbow.Core.1.3.1\lib\net45\Rainbow.dll" #>
 <#@ assembly name="$(SolutionDir)packages\Rainbow.Storage.Yaml.1.3.1\lib\net45\Rainbow.Storage.Yaml.dll" #>
-<#@ assembly name="$(SolutionDir)packages\RainbowCodeGeneration.0.1.1\lib\net45\RainbowCodeGeneration.dll" #>
+<#@ assembly name="$(SolutionDir)packages\RainbowCodeGeneration.0.1.2\lib\net45\RainbowCodeGeneration.dll" #>
 <# // NOTE - Reference your Sitecore.Kernel.dll and Sitecore.Logging.dll here #>
 <#@ assembly name="$(SolutionDir)lib\Sitecore\Sitecore.Kernel.dll" #>
 <#@ assembly name="$(SolutionDir)lib\Sitecore\Sitecore.Logging.dll" #>
