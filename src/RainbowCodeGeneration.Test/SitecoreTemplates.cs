@@ -9,7 +9,7 @@
 // ReSharper disable InconsistentNaming
 namespace RainbowCodeGeneration.Test
 {
-	using Sitecore.Data;
+	using global::Sitecore.Data;
 
 	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
     public struct SitecoreTemplates
