@@ -11,7 +11,7 @@
     <!--TODO <iconUrl></iconUrl>-->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A simple set of utility classes and a sample T4 template that allow easy code generation for Sitecore templates from Rainbow / Unicorn serialized items. Currently, only the YAML serialization format is supported. </description>
-    <copyright>Copyright 2016</copyright>
+    <copyright>Copyright 2016-2017</copyright>
     <tags>rainbow unicorn sitecore serialization serialisation codegeneration</tags>
   </metadata>
 </package>
