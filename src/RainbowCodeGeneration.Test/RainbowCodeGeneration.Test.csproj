@@ -66,13 +66,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SitecoreTemplates.cs">
-      <DependentUpon>SitecoreTemplates.tt</DependentUpon>
+    <Compile Include="SitecoreKnownItems.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
+      <DependentUpon>SitecoreKnownItems.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SitecoreTemplates.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SitecoreTemplates.tt</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="SitecoreKnownItems.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>SitecoreKnownItems.cs</LastGenOutput>
+    </Content>
     <Content Include="SitecoreTemplates.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>SitecoreTemplates.cs</LastGenOutput>

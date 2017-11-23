@@ -17,17 +17,36 @@ namespace RainbowCodeGeneration
         public static IEnumerable<Template> GetTemplates(string physicalRootPath, string treeName, string treePath)
         {
             if (treeName == "YOUR FEATURE NAME HERE" && treePath == "/sitecore/templates/YOUR TEMPLATE PATH HERE")
-                return Enumerable.Empty<Template>(); // don't act on unconfigured T4 template (to avoid exception on installation)
+                return Enumerable.Empty<Template>(); // don't act on unconfigured T4 template (to avoid exception on installation)            
+            var ds = GetSystemDataStore(physicalRootPath, treeName, treePath);
+            var templates = ds.GetMetadataByTemplateId(TemplateGuid, MasterDb);
+
+            return templates.Select(tempalte => ds.GetById(tempalte.Id, MasterDb))
+                .Select(item => new Template(item, GetTemplateFields(item)));
+        }
+
+
+        public static IEnumerable<IItemData> GetItems(string physicalRootPath, string treeName, string treePath)
+        {
+            // don't act on unconfigured T4 template (to avoid exception on installation)
+            if (string.IsNullOrWhiteSpace(treeName) || string.IsNullOrWhiteSpace(treePath))
+                return Enumerable.Empty<IItemData>();
+
+            var ds = GetSystemDataStore(physicalRootPath, treeName, treePath);
+            return ds.GetByPath(treePath, MasterDb);
+        }
+
+        private static SerializationFileSystemDataStore GetSystemDataStore(string physicalRootPath, string treeName, string treePath)
+        {
             if (!System.IO.Directory.Exists(physicalRootPath))
                 throw new InvalidOperationException($"Could not find the root path {physicalRootPath}");
             if (!System.IO.Directory.Exists($"{physicalRootPath}\\{treeName}"))
-                throw new InvalidOperationException($"Could not find the tree with path {physicalRootPath}\\{treeName}");
-            var ds = new SerializationFileSystemDataStore(physicalRootPath, false,
-                    new TreeRootFactory(treeName, treePath, MasterDb),
-                    new YamlSerializationFormatter(null, null));
-            var templates = ds.GetMetadataByTemplateId(TemplateGuid, MasterDb);
+                throw new InvalidOperationException(
+                    $"Could not find the tree with path {physicalRootPath}\\{treeName}");
 
-            return templates.Select(tempalte => ds.GetById(tempalte.Id, MasterDb)).Select(item => new Template(item, GetTemplateFields(item)));
+            return new SerializationFileSystemDataStore(physicalRootPath, false,
+                new TreeRootFactory(treeName, treePath, MasterDb),
+                new YamlSerializationFormatter(null, null));
         }
 
         private static IEnumerable<IItemData> GetTemplateFields(IItemData template)
