@@ -138,6 +138,76 @@ namespace RainbowCodeGeneration.Test
 			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("RainbowCodeGeneration", "1.0")]
 			public const string TemplateId = "d77856c3-8a5e-452c-8854-f2965edf25e0";
 
+			public struct MapType
+            {
+				/// <summary>
+				/// The MapType field.
+				/// <para></para>
+				/// <para>Field Type: Droplist</para>		
+				/// </summary>
+                public const string FieldName = "MapType";
+            }
+
+			public struct EnableRotateControl
+            {
+				/// <summary>
+				/// The EnableRotateControl field.
+				/// <para></para>
+				/// <para>Field Type: Checkbox</para>		
+				/// </summary>
+                public const string FieldName = "EnableRotateControl";
+            }
+
+			public struct EnableStreetViewControl
+            {
+				/// <summary>
+				/// The EnableStreetViewControl field.
+				/// <para></para>
+				/// <para>Field Type: Checkbox</para>		
+				/// </summary>
+                public const string FieldName = "EnableStreetViewControl";
+            }
+
+			public struct ZoomLevel
+            {
+				/// <summary>
+				/// The ZoomLevel field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// </summary>
+                public const string FieldName = "ZoomLevel";
+            }
+
+			public struct EnableZoomControl
+            {
+				/// <summary>
+				/// The EnableZoomControl field.
+				/// <para></para>
+				/// <para>Field Type: Checkbox</para>		
+				/// </summary>
+                public const string FieldName = "EnableZoomControl";
+            }
+
+			public struct EnableScaleControl
+            {
+				/// <summary>
+				/// The EnableScaleControl field.
+				/// <para></para>
+				/// <para>Field Type: Checkbox</para>		
+				/// </summary>
+                public const string FieldName = "EnableScaleControl";
+            }
+
+			public struct EnableMapTypeControl
+            {
+				/// <summary>
+				/// The EnableMapTypeControl field.
+				/// <para></para>
+				/// <para>Field Type: Checkbox</para>		
+				/// </summary>
+                public const string FieldName = "EnableMapTypeControl";
+            }
+
 			public struct CenterLocation
             {
 				/// <summary>
@@ -156,76 +226,6 @@ namespace RainbowCodeGeneration.Test
 				/// <para>Field Type: Checkbox</para>		
 				/// </summary>
                 public const string FieldName = "EnableCenterMapControl";
-            }
-
-			public struct EnableMapTypeControl
-            {
-				/// <summary>
-				/// The EnableMapTypeControl field.
-				/// <para></para>
-				/// <para>Field Type: Checkbox</para>		
-				/// </summary>
-                public const string FieldName = "EnableMapTypeControl";
-            }
-
-			public struct EnableRotateControl
-            {
-				/// <summary>
-				/// The EnableRotateControl field.
-				/// <para></para>
-				/// <para>Field Type: Checkbox</para>		
-				/// </summary>
-                public const string FieldName = "EnableRotateControl";
-            }
-
-			public struct EnableScaleControl
-            {
-				/// <summary>
-				/// The EnableScaleControl field.
-				/// <para></para>
-				/// <para>Field Type: Checkbox</para>		
-				/// </summary>
-                public const string FieldName = "EnableScaleControl";
-            }
-
-			public struct EnableStreetViewControl
-            {
-				/// <summary>
-				/// The EnableStreetViewControl field.
-				/// <para></para>
-				/// <para>Field Type: Checkbox</para>		
-				/// </summary>
-                public const string FieldName = "EnableStreetViewControl";
-            }
-
-			public struct EnableZoomControl
-            {
-				/// <summary>
-				/// The EnableZoomControl field.
-				/// <para></para>
-				/// <para>Field Type: Checkbox</para>		
-				/// </summary>
-                public const string FieldName = "EnableZoomControl";
-            }
-
-			public struct MapType
-            {
-				/// <summary>
-				/// The MapType field.
-				/// <para></para>
-				/// <para>Field Type: Droplist</para>		
-				/// </summary>
-                public const string FieldName = "MapType";
-            }
-
-			public struct ZoomLevel
-            {
-				/// <summary>
-				/// The ZoomLevel field.
-				/// <para></para>
-				/// <para>Field Type: Single-Line Text</para>		
-				/// </summary>
-                public const string FieldName = "ZoomLevel";
             }
 		}
 	}

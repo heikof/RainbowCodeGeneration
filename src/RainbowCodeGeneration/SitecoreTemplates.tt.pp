@@ -2,17 +2,19 @@
 <#@ output extension=".cs" #>
 <#@ assembly name="System.Core" #>
 <# // NOTE - Reference your NuGet packages for Rainbow and RainbowCodeGeneration here #>
-<#@ assembly name="$(SolutionDir)packages\Rainbow.Core.1.4.1\lib\net452\Rainbow.dll" #>
-<#@ assembly name="$(SolutionDir)packages\Rainbow.Storage.Yaml.1.4.1\lib\net452\Rainbow.Storage.Yaml.dll" #>
-<#@ assembly name="$(SolutionDir)packages\RainbowCodeGeneration.0.2\lib\net452\RainbowCodeGeneration.dll" #>
-<# // NOTE - Reference your Sitecore.Kernel.dll and Sitecore.Logging.dll here #>
+<#@ assembly name="$(SolutionDir)packages\Rainbow.Core.2.0.0\lib\net452\Rainbow.dll" #>
+<#@ assembly name="$(SolutionDir)packages\Rainbow.Storage.Yaml.2.0.0\lib\net452\Rainbow.Storage.Yaml.dll" #>
+<#@ assembly name="$(SolutionDir)packages\RainbowCodeGeneration.0.3.0\lib\net452\RainbowCodeGeneration.dll" #>
+<# // NOTE - Reference your Sitecore.Kernel.dll and Sitecore.Logging.dll here - for Sitecore 9, also add Microsoft.Extensions.DependencyInjection 1.0.0 via NuGet and enable the reference below #>
 <#@ assembly name="$(SolutionDir)packages\Sitecore.Kernel.NoReferences.8.2.160729\lib\net452\Sitecore.Kernel.dll" #>
 <#@ assembly name="$(SolutionDir)packages\Sitecore.Logging.NoReferences.8.2.160729\lib\net452\Sitecore.Logging.dll" #>
+<# // For Sitecore 9: @ assembly name="$(SolutionDir)packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.0.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll" #>
+<# // For Sitecore 9: @ assembly name="$(SolutionDir)packages\Microsoft.Extensions.DependencyInjection.1.0.0\lib\netstandard1.1\Microsoft.Extensions.DependencyInjection.dll" #>
 <# 
 // CONFIGURATION
 var physicalFileStore = @"..\serialization"; // the path to your serialisation items
-var treeName = "YOUR FEATURE NAME HERE"; // the name of the configuration you want to code-generate 
-var treePath = "/sitecore/templates/YOUR TEMPLATE PATH HERE"; // the matching path in Sitecore for the configuration
+var treeName = "YOUR FEATURE NAME HERE"; // the name of the configuration you want to code-generate, also add the template Sub-Folder name e.g. Feature.Sample\\Templates
+var treePath = "/sitecore/templates/YOUR TEMPLATE PATH HERE"; // the matching path in Sitecore for the configuration, e.g. /sitecore/templates/Sample
 
 var Tool = "RainbowCodeGeneration";
 var ToolVersion = "1.0";

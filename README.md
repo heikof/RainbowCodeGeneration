@@ -21,12 +21,34 @@ Install the [RainbowCodeGeneration package](https://www.nuget.org/packages/Rainb
 
 Adjust a few settings on the T4 template `SitecoreTemplates.tt` to make it run in your configuration. 
 
-* Ensure the assembly references at the top of the file resolve correctly (especially the path to your Sitecore.Kernel.dll)
+* Ensure the assembly references at the top of the file resolve correctly (e.g. the path to your Sitecore.Kernel.dll). I have added an example based on NuGet packages however it is likely that you need to update the version numbers. The code generation is compatible with Unicorn 3 and 4 (Rainbow 1 and 2). 
 * The `physicalFileStore` setting needs to point to where you store the Unicorn / Rainbow items for your project. The out of the box setting uses the relative paths that Habitat uses. 
-* The `treeName` setting is the name of the sub-tree in Unicorn. This is the name of the include on your predicate in Unicorn. The "News" feature in Habitat would use "Feature.News.Templates"
+* The `treeName` setting is the name of the sub-tree in Unicorn. This is the name of the folder for your Unicorn predicate to generate code for. 
 * The `treePath` setting is the matching path in Sitecore. The "News" feature in Habitat would use "/sitecore/templates/Feature/News"
 
 ![Adjust Settings](http://www.heikofranz.info/wp-content/uploads/2016/07/RainbowCodeGeneration-Settings.png)
+
+* For Sitecore 9 you also need to install the NuGet package for Microsoft.Extensions.DependencyInjection in version 1.0.0 and reference the DLLs. The configuration then looks as follows (for Sitecore 9 using Unicorn 4):
+
+```
+<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ output extension=".cs" #>
+<#@ assembly name="System.Core" #>
+<# // NOTE - Reference your NuGet packages for Rainbow and RainbowCodeGeneration here #>
+<#@ assembly name="$(SolutionDir)packages\Rainbow.Core.2.0.0\lib\net452\Rainbow.dll" #>
+<#@ assembly name="$(SolutionDir)packages\Rainbow.Storage.Yaml.2.0.0\lib\net452\Rainbow.Storage.Yaml.dll" #>
+<#@ assembly name="$(SolutionDir)packages\RainbowCodeGeneration.0.2.0\lib\net452\RainbowCodeGeneration.dll" #>
+<# // NOTE - Reference your Sitecore.Kernel.dll and Sitecore.Logging.dll here #>
+<#@ assembly name="$(SolutionDir)packages\Sitecore.Kernel.NoReferences.9.0.171002\lib\net462\Sitecore.Kernel.dll" #>
+<#@ assembly name="$(SolutionDir)packages\Sitecore.Logging.NoReferences.9.0.171002\lib\net462\Sitecore.Logging.dll" #>
+<#@ assembly name="$(SolutionDir)packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.0.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll" #>
+<#@ assembly name="$(SolutionDir)packages\Microsoft.Extensions.DependencyInjection.1.0.0\lib\netstandard1.1\Microsoft.Extensions.DependencyInjection.dll" #>
+<# 
+// CONFIGURATION
+var physicalFileStore = @"D:\inetpub\wwwroot\sc900\Data\Unicorn"; // the path to your serialisation items
+var treeName = "Feature.Sample\\Templates"; // the name of the configuration you want to code-generate 
+var treePath = "/sitecore/templates/Sample"; // the matching path in Sitecore for the configuration
+```
 
 The code generation for your Sitecore templates will run when you save the T4 template. 
 
@@ -38,7 +60,11 @@ When your Unicorn / Rainbow items update, you will have to re-run the code gener
 
 ![Adjust Settings](http://www.heikofranz.info/wp-content/uploads/2016/07/RainbowCodeGeneration-Example.png)
 
-### Known issues in 0.1.2
+### Generate code for any item (not just templates)
+
+Starting in version 0.3 it is possible to generate code based on any item. For an example T4 template, refer to [SitecoreKnownItems.tt](https://github.com/heikof/RainbowCodeGeneration/blob/develop/src/RainbowCodeGeneration.Test/SitecoreKnownItems.tt) in the test project of the repository. 
+
+### Known issues
 
 #### Re-serialisation fails if Visual Studio solution is open
 Re-serialising an entire configuration fails if Visual Studio is open and a code generation is covering the configuration. Visual Studio appears to retain a lock on the folder and Unicorn cannot remove it. Close the solution and re-open it after you re-serialised the configuration. 
